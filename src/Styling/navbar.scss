@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(34, 231, 212);
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 2%;
+  }
+
+  .navbar p {
+    color: white;
+    font-size: 22px;
+  }
+  .navbar img {
+    width: 20px;
+    height: 20px;
+  }
+  .navbar button {
+    background-color: none;
+    border: none;
+    background: none;
+    padding: 3%;
+  }
+  .sidebar {
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(132, 239, 228);
+    z-index: 99;
+    position: fixed;
+  }
+}
+
+.sidebar {
+  width: 90%;
+  height: 100vh;
+  background-color: rgb(132, 239, 228);
+  z-index: 99;
+  position: fixed;
+}
+.sidebarOff {
+  width: 0%;
+  height: 100vh;
+  background-color: rgb(132, 239, 228);
+}
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(34, 231, 212);
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 2%;
+}
+
+.navbar p {
+  color: white;
+  font-size: 22px;
+}
+.navbar img {
+  width: 20px;
+  height: 20px;
+}
+.navbar button {
+  background-color: none;
+  border: none;
+  background: none;
+  padding: 3%;
+}
+button:hover {
+  background-color: rgb(238, 246, 245);
+}
