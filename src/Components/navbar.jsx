@@ -18,7 +18,12 @@ export default function Navbar() {
         </button>
         <p>Ini Navbar</p>
       </nav>
-      <aside className={[sidebarCollapsible ? "sidebarOff" : "sidebar"]}></aside>
+      <aside>
+        <div className={[sidebarCollapsible ? "sidebarOff" : "sidebar"]}>
+          <p>Login</p>
+          <p>About Us</p>
+        </div>
+      </aside>
     </div>
   );
 }
