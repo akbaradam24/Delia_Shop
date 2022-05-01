@@ -16,7 +16,7 @@ export default function Navbar() {
         <button onClick={handleSidebar}>
           <img src={menu} alt="" />
         </button>
-        <p>Ini Navbar</p>
+        <p>Delia Shop</p>
       </nav>
       <aside>
         <div className={[sidebarCollapsible ? "sidebarOff" : "sidebar"]}>
