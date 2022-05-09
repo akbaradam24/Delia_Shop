@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import "../Styling/home.scss";
+import Chart from "chart.js/auto";
 function Home() {
   return (
     <div>
